@@ -80,6 +80,64 @@
   --sidebar-ring: oklch(0.439 0 0);
 }
 
+/* @layer base { */
+  /* :root {
+    --background: oklch(1 0 0);
+    --foreground: oklch(0.205 0.024 23.41);
+    --muted: oklch(0.959 0.01 23.41);
+    --muted-foreground: oklch(0.447 0.02 23.41);
+    --popover: oklch(1 0 0);
+    --popover-foreground: oklch(0.205 0.024 23.41);
+    --card: oklch(1 0 0);
+    --card-foreground: oklch(0.205 0.024 23.41);
+    --border: oklch(0.9 0.02 23.41);
+    --input: oklch(0.9 0.02 23.41);
+    --primary: oklch(0.531 0.246 24.6);
+    --primary-foreground: oklch(0.978 0.03 24.6);
+    --secondary: oklch(0.959 0.01 23.41);
+    --secondary-foreground: oklch(0.1 0.04 24.6);
+    --accent: oklch(0.959 0.01 23.41);
+    --accent-foreground: oklch(0.1 0.04 24.6);
+    --destructive: oklch(0.602 0.3 23.41);
+    --destructive-foreground: oklch(0.978 0.03 23.41);
+    --ring: oklch(0.531 0.246 24.6);
+    --chart-1: oklch(0.61 0.27 23.41);
+    --chart-2: oklch(0.39 0.24 23.41);
+    --chart-3: oklch(0.24 0.14 23.41);
+    --chart-4: oklch(0.66 0.29 23.41);
+    --chart-5: oklch(0.67 0.35 23.41);
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: oklch(0.205 0.024 23.41);
+    --foreground: oklch(0.978 0.03 23.41);
+    --muted: oklch(0.151 0.013 23.41);
+    --muted-foreground: oklch(0.639 0.022 23.41);
+    --popover: oklch(0.205 0.024 23.41);
+    --popover-foreground: oklch(0.978 0.03 23.41);
+    --card: oklch(0.205 0.024 23.41);
+    --card-foreground: oklch(0.978 0.03 23.41);
+    --border: oklch(0.151 0.013 23.41);
+    --input: oklch(0.151 0.013 23.41);
+    --primary: oklch(0.482 0.27 23.41);
+    --primary-foreground: oklch(0.978 0.03 23.41);
+    --secondary: oklch(0.151 0.013 23.41);
+    --secondary-foreground: oklch(0.978 0.03 23.41);
+    --accent: oklch(0.151 0.013 23.41);
+    --accent-foreground: oklch(0.978 0.03 23.41);
+    --destructive: oklch(0.506 0.28 23.41);
+    --destructive-foreground: oklch(0.978 0.03 23.41);
+    --ring: oklch(0.482 0.27 23.41);
+    --chart-1: oklch(0.5 0.3 23.41);
+    --chart-2: oklch(0.45 0.24 23.41);
+    --chart-3: oklch(0.55 0.32 23.41);
+    --chart-4: oklch(0.6 0.26 23.41);
+    --chart-5: oklch(0.55 0.3 23.41);
+  } */
+/* } */
+
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
