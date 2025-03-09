@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
+import NextTopLoader from 'nextjs-toploader'
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,11 +35,12 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className="mx-auto flex justify-center"
+      className="scroll-smooth h-full"
     >
       <body
-        className={`${alexana.variable} ${geistSans.variable} ${geistMono.variable} antialiased max-w-screen-xl`}
+        className={`${alexana.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <NextTopLoader />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
