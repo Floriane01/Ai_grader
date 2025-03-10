@@ -15,15 +15,17 @@ import {
   } from "@/components/ui/dropdown-menu"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { SidebarTrigger } from "./ui/sidebar";
+import DarkModeToggle from "./dark-mode-toggle";
 
 const DashboardTopBar = ({ name }: { name: string }) => {
   return (
-    <div className="flex h-14 w-full bg-primary text-primary-foreground justify-between pr-6 shrink-0 items-center gap-2 transition-[width,height] ease-linear group-has-data-[collapsible=icon]/sidebar-wrapper:h-12">
+    <div className="flex h-14 w-full bg-sidebar text-sidebar-foreground justify-between pr-6 shrink-0 items-center gap-2 transition-[width,height] ease-linear group-has-data-[collapsible=icon]/sidebar-wrapper:h-12">
       <div className="flex items-center gap-2 px-4">
-        <SidebarTrigger className="-ml-1 text-primary-foreground" />
-        <h3 className="text-black text-xl">Hii, {name}</h3>
+        <SidebarTrigger className="-ml-1 text-sidebar-foreground" />
+        <h3 className="text-sidebar-foreground text-xl">Hii, {name}</h3>
       </div>
       <div className="flex items-center gap-4">
+        <DarkModeToggle/>
         <Bell />
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
